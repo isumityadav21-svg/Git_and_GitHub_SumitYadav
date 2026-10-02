@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "name": "Git",
+        "role": "DevOps"
+    },
+    {
+        "id": 2,
+        "name": "GitHub",
+        "role": "DevOps"
+    },
+    {
+        "id": 3,
+        "name": "Flask",
+        "role": "Python"
+    }
+]
