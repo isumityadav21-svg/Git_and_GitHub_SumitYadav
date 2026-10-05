@@ -1,25 +1,36 @@
+
 <!DOCTYPE html>
+
 <html>
+
 <head>
     <title>To-Do Application</title>
 </head>
+
 <body>
 
     <h1>To-Do Application</h1>
 
     <form action="/submittodoitem" method="POST">
-         <label>Item ID:</label>
-<input type="text" name="itemId">
 
-<br><br> 
+        <label>Item ID:</label>
+        <input type="text" name="itemId">
+        <br><br>
+
+        <label>Item UUID:</label>
+        <input type="text" name="itemUUID">
+        <br><br>
+
+        <label>Item Hash:</label>
+        <input type="text" name="itemHash">
+        <br><br>
+
         <label>Item Name:</label>
         <input type="text" name="itemName" required>
-
         <br><br>
 
         <label>Item Description:</label>
         <textarea name="itemDescription" required></textarea>
-
         <br><br>
 
         <button type="submit">Submit</button>
@@ -27,4 +38,5 @@
     </form>
 
 </body>
+
 </html>
